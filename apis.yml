@@ -1,8 +1,23 @@
 aid: valiant-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valiant-networks.png
 name: Valiant Networks
-description: Valiant Networks is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Valiant Networks, Inc. was a dot-com-era network testing, design, and consulting
+  firm serving carriers and network equipment vendors, raising a $21M Series B in October
+  1999 and cutting staff (including its CEO) in the 2001 telecom downturn per Light Reading.
+  It appears on Battery Ventures' list of all portfolio companies. The company is defunct
+  with no surviving web presence or API surface; valiantnetworks.com lapsed and was later
+  re-registered (2004) by unrelated businesses, and today does not resolve.
 url: https://raw.githubusercontent.com/api-evangelist/valiant-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+- 'Battery Ventures list of all companies: https://www.battery.com/list-of-all-companies/'
+- 'Light Reading, "Valiant Networks Regroups" (staff cuts, CEO departure): https://www.lightreading.com/business-management/valiant-networks-regroups'
+- 'CB Insights: single $21M Series B, 1999-10-01, no activity since: https://www.cbinsights.com/company/valiant-networks/financials'
+- 'valiantnetworks.com has no A/NS records as of 2026-07-21; current registration created 2004-07-18 (post-dates the company); 2017 Wayback snapshot is an unrelated Houston IT shop, 2002-03 snapshots an unrelated Chennai infosec consultancy'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Networking
+- Consulting
+- Telecommunications
+- Network Testing
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
