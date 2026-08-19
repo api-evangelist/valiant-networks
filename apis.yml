@@ -31,7 +31,7 @@ x-status-evidence:
 - 'Light Reading, "Valiant Networks Regroups" (staff cuts, CEO departure): https://www.lightreading.com/business-management/valiant-networks-regroups'
 - 'CB Insights: single $21M Series B, 1999-10-01, no activity since: https://www.cbinsights.com/company/valiant-networks/financials'
 - 'valiantnetworks.com has no A/NS records as of 2026-07-21; current registration created 2004-07-18 (post-dates the company); 2017 Wayback snapshot is an unrelated Houston IT shop, 2002-03 snapshots an unrelated Chennai infosec consultancy'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
